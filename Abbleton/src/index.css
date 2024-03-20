@@ -1,3 +1,57 @@
-@tailwind base; 
-@tailwind components; 
+@font-face {
+    font-family: 'Futura';
+    src: url(assets/fonts/Futura-light.TTF) format(TrueType);
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'Futura';
+    src: url(assets/fonts/Futura-regular.TTF) format(TrueType);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(assets/fonts/Futura-medium.TTF) format(TrueType);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(assets/fonts/Futura-bold.TTF) format(TrueType);
+    font-weight: 700
+}
+
+
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
+
+html {
+    @apply font-futura font-normal bg-[#F3F3F3]
+}
+
+a, p {
+    @apply lg:text-xl text-base font-thin
+}
+
+h1, h2 {
+    @apply lg:text-3xl text-xl font-medium
+}
+
+h3 {
+    @apply font-medium lg:text-xl
+}
+
+li {
+    @apply lg:text-lg
+}
+
+.mediaIcons {
+    @apply w-8 h-full
+}
+
+section {
+    @apply pb-[8vw] lg:pb-32
+}
