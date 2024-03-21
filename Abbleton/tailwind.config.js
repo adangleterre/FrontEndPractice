@@ -1,15 +1,19 @@
-export default { 
-	content: [ 
-		"./index.html", 
+export default {
+	content: [
+		"./index.html",
 		"./src/**/*.{js,ts,jsx,tsx}",
-	], 
-	theme: { 
+	],
+	theme: {
 		extend: {
-      colors:{
-        primary: '#000000',
-        secondary: '#0100ff'
-      },
-    }, 
-	}, 
-	plugins: [], 
+			colors: {
+				primary: '#000000',
+				secondary: '#0100ff',
+				accent: '#ff764d'
+			},
+		},
+		fontFamily:{
+			futura: ['futura','sans-serif'],
+		},
+	},
+	plugins: [],
 }
