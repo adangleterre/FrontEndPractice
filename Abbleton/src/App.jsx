@@ -1,6 +1,7 @@
 import Nav from "./sections/Nav"
 import Hero from "./sections/Hero"
 import TestimonialVideo from "./sections/TestimonialVideo"
+import AboutUs from "./sections/AboutUs"
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
       <section>
         <Hero />
       </section>
-      <section className="py-32">
+      <section className="pb-32">
+        <AboutUs />
+      </section>
+      <section className="pb-32">
         <TestimonialVideo />
       </section>
     </main>
