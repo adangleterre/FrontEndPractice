@@ -13,11 +13,11 @@ const links = [
 
 function Nav() {
   return (
-    <header className='p-5 border-b-2'>
+    <header className='px-10 py-5 border-b-2'>
       <nav className='flex justify-between'>
         <div className='flex items-center gap-5'>
           <BrandLogo />
-          <ul className='flex gap-3 max-lg:hidden'>
+          <ul className='flex gap-8 max-lg:hidden'>
             {links.map(link => (
               <li key={link.name}>{link.name}</li>
             ))}
@@ -27,10 +27,10 @@ function Nav() {
           </div>
         </div>
 
-        <div className='flex gap-3 max-lg:hidden'>
+        <div className='flex items-center gap-8 max-lg:hidden'>
           <a href="#" className='text-secondary'>Try Live for free</a>
-          <a href="#">Account</a>
-          <a href="#">Log out</a>
+          <a href="#" className='text-base'>Account</a>
+          <a href="#" className='text-base'>Log out</a>
         </div>
       </nav>
     </header>

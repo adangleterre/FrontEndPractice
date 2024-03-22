@@ -23,3 +23,7 @@
 html {
     @apply font-futura font-normal
 }
+
+a, p, li {
+    @apply text-xl
+}
