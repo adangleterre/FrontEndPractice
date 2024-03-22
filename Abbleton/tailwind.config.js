@@ -4,12 +4,6 @@ export default {
 		"./src/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		screens: {
-			sm: '480px',
-			md: '768px',
-			lg: '976px',
-			xl: '1600px',
-		  },
 		extend: {
 			colors: {
 				primary: '#000000',
@@ -19,6 +13,9 @@ export default {
 			backgroundImage: {
 				'hero': "url('assets/images/hero-header.jpg')",
 			},
+			screens: {
+				'2xl': '1600px'
+			  },
 		},
 		fontFamily:{
 			futura: ['futura','sans-serif'],
