@@ -10,6 +10,9 @@ export default {
 				secondary: '#0100ff',
 				accent: '#ff764d'
 			},
+			backgroundImage: {
+				'hero': "url('assets/images/hero-header.jpg')",
+			},
 		},
 		fontFamily:{
 			futura: ['futura','sans-serif'],

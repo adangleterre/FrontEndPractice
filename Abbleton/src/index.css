@@ -21,7 +21,7 @@
 @tailwind utilities;
 
 html {
-    @apply font-futura font-normal
+    @apply font-futura font-normal bg-[#F3F3F3]
 }
 
 a, p, li {
