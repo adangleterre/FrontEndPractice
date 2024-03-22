@@ -23,9 +23,9 @@ html {
 }
 
 a, p, li {
-    @apply text-xl
+    @apply md:text-xl text-base
 }
 
-h1 {
-    @apply text-3xl
+h1, h2 {
+    @apply md:text-3xl text-xl
 }

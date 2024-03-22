@@ -13,7 +13,7 @@ const links = [
 
 function Nav() {
   return (
-    <header className='px-10 py-5 border-b-2'>
+    <header className='px-5 py-5 border-b-2 md:px-10'>
       <nav className='flex justify-between'>
         <div className='flex items-center gap-5'>
           <BrandLogo />
