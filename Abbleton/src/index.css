@@ -1,13 +1,11 @@
 @font-face {
     font-family: 'Futura';
     src: url(assets/fonts/Futura.ttf) format(TrueType);
-    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Futura';
     src: url(assets/fonts/Futura-medium.ttf) format(TrueType);
-    
 }
 
 @font-face {
@@ -26,4 +24,8 @@ html {
 
 a, p, li {
     @apply text-xl
+}
+
+h1 {
+    @apply text-3xl
 }
