@@ -1,13 +1,14 @@
 import React from 'react'
 import WorkingPlace from '../assets/images/working-space.jpg'
+import TitleSection from '../components/TitleSection'
 
 function Jobs() {
     return (
-        <div>
-            <div className='w-10/12 mx-auto mb-32 lg:w-6/12'>
-                <h1 className='mb-5'>We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</h1>
-                <p className='font-normal'>If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
-            </div>
+        <>
+            <TitleSection 
+            title="We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible."
+            subtext="If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities."
+            />
 
             <div className='flex flex-col w-11/12 mx-auto xl:flex-row'>
                 <div className='xl:w-6/12'>
@@ -18,7 +19,7 @@ function Jobs() {
                     <a className='text-xl text-secondary' href="#">See latest jobs</a>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
