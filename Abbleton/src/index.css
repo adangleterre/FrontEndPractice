@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Futura';
     src: url(assets/fonts/Futura.ttf) format(TrueType);
+    font-weight: 500;
 }
 
 @font-face {
@@ -28,4 +29,8 @@ a, p, li {
 
 h1, h2 {
     @apply md:text-3xl text-xl
+}
+
+h3 {
+    @apply text-base font-bold tracking-wider
 }

@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import TestimonialVideo from "./sections/TestimonialVideo"
 import AboutUs from "./sections/AboutUs"
 import Jobs from "./sections/Jobs"
+import Footer from "./sections/Footer"
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section className="pb-12">
         <Jobs />
+      </section>
+      <section className="border-t-2">
+        <Footer/>
       </section>
     </main>
   )
