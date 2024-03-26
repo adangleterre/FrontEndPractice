@@ -18,7 +18,7 @@ export default {
 			  },
 		},
 		fontFamily:{
-			futura: ['futura','sans-serif'],
+			futura: ['Futura','sans-serif'],
 		},
 	},
 	plugins: [],
