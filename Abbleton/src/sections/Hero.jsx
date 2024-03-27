@@ -1,5 +1,3 @@
-import ableton_header from '../assets/images/hero-header.jpg'
-
 function Hero() {
     return (
         <div className='mb-[8vw] lg:mb-32'>
