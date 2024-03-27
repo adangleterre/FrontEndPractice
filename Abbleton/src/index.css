@@ -33,17 +33,25 @@ html {
 }
 
 a, p {
-    @apply md:text-xl text-base font-thin
+    @apply lg:text-xl text-base font-thin
 }
 
 h1, h2 {
-    @apply md:text-3xl text-xl
+    @apply lg:text-3xl text-xl font-medium
 }
 
 h3 {
-    @apply text-lg font-bold tracking-wider
+    @apply font-medium lg:text-xl
 }
 
 li {
-    @apply text-sm lg:text-lg
+    @apply lg:text-lg
+}
+
+.mediaIcons {
+    @apply w-8 h-full
+}
+
+section {
+    @apply pb-[8vw] lg:pb-32
 }

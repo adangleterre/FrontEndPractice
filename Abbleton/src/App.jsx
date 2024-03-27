@@ -13,13 +13,13 @@ function App() {
       <section>
         <Hero />
       </section>
-      <section className="pb-32">
+      <section>
         <AboutUs />
       </section>
-      <section className="pb-32">
+      <section>
         <TestimonialVideo />
       </section>
-      <section className="pb-12">
+      <section>
         <Jobs />
       </section>
       <section className="border-t-2">

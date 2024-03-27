@@ -2,13 +2,13 @@ import React from 'react'
 import BrandLogo from '../components/BrandLogo'
 
 const links = [
-  { name: "Live", link: "/" },
-  { name: "Push", link: "/" },
-  { name: "Link", link: "/" },
-  { name: "Shop", link: "/" },
-  { name: "Packs", link: "/" },
-  { name: "Help", link: "/" },
-  { name: "More", link: "/" }
+  { name: "Live", target: "#" },
+  { name: "Push", target: "#" },
+  { name: "Link", target: "#" },
+  { name: "Shop", target: "#" },
+  { name: "Packs", target: "#" },
+  { name: "Help", target: "#" },
+  { name: "More", target: "#" }
 ]
 
 function Nav() {
@@ -17,20 +17,20 @@ function Nav() {
       <nav className='flex justify-between'>
         <div className='flex items-center gap-5'>
           <BrandLogo />
-          <ul className='flex gap-8 max-lg:hidden'>
+          <ul className='flex gap-5 max-lg:hidden'>
             {links.map(link => (
-              <li key={link.name}>{link.name}</li>
+              <li key={link.name}><a className='text-xl font-medium' href={link.target}>{link.name}</a></li>
             ))}
           </ul>
           <div className='lg:hidden'>
-            <button href="#">Menu</button>
+            <button href="#" className='text-xl font-medium'>Menu</button>
           </div>
         </div>
 
         <div className='flex items-center gap-8 max-lg:hidden'>
-          <a href="#" className='text-secondary'>Try Live for free</a>
-          <a href="#" className='text-base'>Account</a>
-          <a href="#" className='text-base'>Log out</a>
+          <a href="#" className='text-xl font-medium text-secondary'>Try Live for free</a>
+          <a href="#" className='text-base font-medium'>Account</a>
+          <a href="#" className='text-base font-medium'>Log out</a>
         </div>
       </nav>
     </header>
