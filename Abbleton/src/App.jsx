@@ -4,6 +4,7 @@ import TestimonialVideo from "./sections/TestimonialVideo"
 import AboutUs from "./sections/AboutUs"
 import Jobs from "./sections/Jobs"
 import Footer from "./sections/Footer"
+import Culture from "./sections/Culture"
 
 function App() {
 
@@ -20,10 +21,13 @@ function App() {
         <TestimonialVideo />
       </section>
       <section>
+        <Culture />
+      </section>
+      <section>
         <Jobs />
       </section>
       <section className="border-t-2">
-        <Footer/>
+        <Footer />
       </section>
     </main>
   )
