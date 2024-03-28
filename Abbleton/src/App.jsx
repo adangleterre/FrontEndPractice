@@ -5,6 +5,7 @@ import AboutUs from "./sections/AboutUs"
 import Jobs from "./sections/Jobs"
 import Footer from "./sections/Footer"
 import Culture from "./sections/Culture"
+import People from "./sections/People"
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
       </section>
       <section>
         <TestimonialVideo />
+      </section>
+      <section>
+        <People />
       </section>
       <section>
         <Culture />
