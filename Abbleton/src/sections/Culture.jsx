@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleSection from '../components/TitleSection'
 import MusicComputing from '../assets/images/music-computing.jpg'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import CompositionPicture from '../assets/images/music-sampling.jpg'
 import CulturePicture from '../assets/images/music-culture.jpg'
 import TitleSection from '../components/TitleSection'
@@ -12,7 +11,7 @@ function AboutUs() {
             />
             <div className='relative w-full h-7/12'>
                 <div className='absolute right-0 flex justify-end w-7/12 h-full bg-[#FBFFA7]' />
-                <div className='relative z-50 flex items-center justify-evenly'>
+                <div className='relative flex items-center z-1 justify-evenly'>
                     <div className='max-w-[40%]'>
                         <img src={CompositionPicture} className='object-contain w-full h-full' alt="" />
                     </div>

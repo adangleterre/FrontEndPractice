@@ -1,4 +1,3 @@
-import React from 'react'
 import WorkingPlace from '../assets/images/working-space.jpg'
 import TitleSection from '../components/TitleSection'
 

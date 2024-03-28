@@ -1,4 +1,3 @@
-import React from 'react'
 import YouTubeEmbed from '../components/YoutubeEmbed.jsx'
 
 function TestimonialVideo() {
