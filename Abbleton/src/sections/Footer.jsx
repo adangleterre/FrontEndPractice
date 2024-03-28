@@ -29,11 +29,11 @@ function Footer() {
                         <li><a href="#" className="font-normal">Jobs</a></li>
                     </ul>
                     <div className="flex mt-2.5 gap-3">
-                        <a href="#"><SiFacebook className="mediaIcons"/></a>
-                        <a href="#"><SiX className="mediaIcons"/></a>
-                        <a href="#"><SiYoutube className="mediaIcons"/></a>
-                        <a href="#"><SiInstagram className="mediaIcons"/></a>
-                        <a href="#"><SiTiktok className="mediaIcons"/></a>
+                        <a href="#"><SiFacebook className="mediaIcons" /></a>
+                        <a href="#"><SiX className="mediaIcons" /></a>
+                        <a href="#"><SiYoutube className="mediaIcons" /></a>
+                        <a href="#"><SiInstagram className="mediaIcons" /></a>
+                        <a href="#"><SiTiktok className="mediaIcons" /></a>
                     </div>
                 </div>
                 <div className="lg:w-1/3">

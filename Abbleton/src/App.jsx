@@ -6,6 +6,7 @@ import Jobs from "./sections/Jobs"
 import Footer from "./sections/Footer"
 import Culture from "./sections/Culture"
 import People from "./sections/People"
+import Commitment from "./sections/Commitment"
 
 function App() {
 
@@ -26,6 +27,9 @@ function App() {
       </section>
       <section>
         <Culture />
+      </section>
+      <section>
+        <Commitment/>
       </section>
       <section>
         <Jobs />
