@@ -8,11 +8,11 @@ import { SiInstagram } from "react-icons/si";
 
 function Footer() {
     return (
-        <footer className="flex flex-col w-10/12 gap-[8vw] pt-[8vw] mx-auto lg:py-32">
+        <footer className="flex flex-col w-10/12 gap-[8vw] lg:gap-20 pt-[8vw] mx-auto lg:pt-32">
             <div>
                 <BrandLogo />
             </div>
-            <div className="flex flex-col gap-[8vw] flex-nowrap lg:flex-row-reverse">
+            <div className="flex flex-col gap-[8vw] lg:gap-0 flex-nowrap lg:flex-row-reverse">
                 <div className="lg:w-1/3">
                     <label>
                         <h3 className="font-medium">Sign up to our newsletter</h3>
@@ -45,7 +45,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col gap-[8vw] flex-nowrap lg:flex-row">
+            <div className="flex flex-col gap-[8vw] lg:gap-0 flex-nowrap lg:flex-row">
                 <div className="lg:w-1/3">
                     <h3 className="font-medium">Community</h3>
                     <ul>
