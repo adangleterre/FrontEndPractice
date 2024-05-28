@@ -1,5 +1,6 @@
 import Header from "./sections/Header"
 import Hero from "./sections/Hero"
+import Topics from "./sections/Topics"
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
       <Header />
       <section>
         <Hero />
+      </section>
+      <section>
+        <Topics />
       </section>
     </>
   )
