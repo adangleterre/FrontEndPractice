@@ -8,7 +8,7 @@ import UsingAbstractIcon from "../assets/UsingAbstract.png"
 
 function Topics() {
     return (
-        <div className="grid grid-cols-1 gap-12 lg:mx-auto mt-16 mx-6 lg:w-4/5 md:grid-cols-2 md:mt-40 max-w-screen-[1600px]">
+        <div className="grid grid-cols-1 sm:gap-12 lg:mx-auto mt-24 mx-6 lg:w-4/5 md:grid-cols-2 md:mt-40 max-w-screen-[1600px] mb-20">
             <FaqTopic iconSrc={UsingAbstractIcon} topic="Using Abstract" description="Abstract lets you manage, version, and document your designs in one place." />
             <FaqTopic iconSrc={ManageAccountIcon} topic="Manage your account" description="Configure your account settings, such as your email, profile details, and password." />
             <FaqTopic iconSrc={ManageProjectIcon} topic="Manage organizations, teams, and projects" description="Use Abstract organizations, teams, and projects to organize your people and your work." />

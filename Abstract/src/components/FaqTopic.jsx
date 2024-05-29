@@ -1,6 +1,6 @@
 function FaqTopic({ iconSrc, topic, description }) {
     return (
-        <div className="flex mb-12">
+        <div className="flex mb-20 sm:mb-14">
             <div className="mr-5">
                 <img src={iconSrc} alt={topic + ` icon`} className="max-h-16 md:max-h-24"/>
             </div>

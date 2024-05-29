@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <div className="bg-[#DBDBF1] flex flex-col items-center pt-20 pb-28">
+        <div className="bg-[#DBDBF1] flex flex-col items-center pt-20 pb-28 px-4">
             <div className="text-[40px] md:text-[50px] lg:text-[80px] tracking-tighter leading-relaxed mb-12 lg:mb-4">
                 How can we help?
             </div>
