@@ -13,8 +13,10 @@ function Footer() {
                     <a href="#">About Us</a>
                     <a href="#">Careers</a>
                     <a href="#">Legal</a>
-                    <h3 className="mt-8 font-bold">Contact Us</h3>
-                    <a href="#">info@abstract.com</a>
+                    <div className="mt-8">
+                        <h3 className="font-bold">Contact Us</h3>
+                        <a href="#">info@abstract.com</a>
+                    </div>
                 </div>
             </div>
             <div className="flex flex-col self-end w-full text-xl md:w-6/12 lg:w-4/12">
