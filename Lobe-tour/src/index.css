@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p, h1, a {
+    @apply text-[#333]
+}
