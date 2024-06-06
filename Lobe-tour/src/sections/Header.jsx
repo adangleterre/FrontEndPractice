@@ -12,7 +12,7 @@ function Header() {
         <a href="#" className='hover:text-[#333] transition'>Blog</a>
         <a href="#" className='hover:text-[#333] transition'>Help</a>
       </nav>
-      <button className='hidden px-5 py-2 text-lg font-bold text-white transition duration-300 rounded-full md:block bg-primary-lobe hover:scale-105'>Download</button>
+      <button className='hidden px-5 py-2 md:block'>Download</button>
       <button className='rounded-full md:hidden bg-[#eef0f2] p-2'><IoIosMenu size={25} /></button>    
     </header>
   )
