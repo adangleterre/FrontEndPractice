@@ -1,4 +1,3 @@
-import './App.css'
 import Hero from './sections/Hero'
 
 function App() {
