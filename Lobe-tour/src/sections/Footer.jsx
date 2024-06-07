@@ -4,7 +4,7 @@ import { FaTwitter, FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="flex flex-row flex-wrap items-center sm:text-start text-center sm:items-start 2xl:text-xl sm:max-w-[892px] sm:m-auto sm:py-14 sm:px-20 lg:max-w-[1072px] xl:max-w-[1314px] ">
+    <footer className="flex flex-row flex-wrap items-center sm:text-start text-center sm:items-start 2xl:text-xl sm:max-w-[892px] sm:m-auto sm:py-14 sm:px-20 lg:max-w-[1072px] xl:max-w-[1314px] border-t-[0.5px]">
       <div className='w-6/12 mb-16 sm:w-2/12'>
         <p className='mb-4 font-bold sm:mb-8'>About</p>
         <a href="#"><p className='mb-4 sm:mb-6'>Download</p></a>
