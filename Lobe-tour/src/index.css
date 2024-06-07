@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, p, a {
+    @apply text-[#333]
+}
+
+h1, h2 {
+    @apply text-[38px] sm:text-[56px] lg:text-[64px] xl:text-[80px] font-bold leading-10 sm:leading-none
+}
+
+button {
+    @apply bg-primary-lobe text-white rounded-full transition duration-300 font-bold text-lg hover:scale-105
+}
