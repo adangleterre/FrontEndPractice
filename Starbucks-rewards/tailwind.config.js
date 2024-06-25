@@ -9,6 +9,9 @@ export default {
       colors: {
         "starbucks-green": "#01754A",
       },
+      fontFamily: {
+        sodo: ['sodo','sans-serif'],
+      },
     },
   },
   plugins: [],
