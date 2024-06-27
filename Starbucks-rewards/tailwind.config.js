@@ -8,10 +8,15 @@ export default {
     extend: {
       colors: {
         "starbucks-green": "#01754A",
+        "covers-green": "#D4E8E3",
       },
       fontFamily: {
         sodo: ['sodo','sans-serif'],
       },
+      backgroundImage: {
+        'hero-mobile': "url('/images/hero-mobile.jpg')",
+        'hero-desktop': "url('/images/hero-desktop.png')",
+      }
     },
   },
   plugins: [],
