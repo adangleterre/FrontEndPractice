@@ -30,7 +30,7 @@ export function Header() {
                 </nav>
             </header>
             <div className="text-white bg-[#1F3832] flex flex-row items-center justify-between px-4 h-[50px] shadow-lg sticky top-0">
-                <p className="uppercase text-[13px] md:text-sm font-bold tracking-wider md:pl-24 lg:pl-32 lg:pl-72">Starbucks® rewards</p>
+                <p className="uppercase text-[13px] md:text-sm font-bold tracking-wider md:pl-24 lg:pl-72">Starbucks® rewards</p>
                 <button className="border-white text-white md:hidden">Join the app</button>
             </div>
         </>
