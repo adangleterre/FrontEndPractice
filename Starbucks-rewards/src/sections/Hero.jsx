@@ -2,7 +2,7 @@ export function Hero() {
 
 
     return (
-        <section className='flex justify-center md:justify-start md:items-center bg-covers-green bg-hero-mobile md:bg-hero-desktop bg-contain md:bg-cover bg-no-repeat bg-right md:bg-bottom right-0 h-[70vh] md:h-[80vh]'>
+        <section className='flex justify-center md:justify-start md:items-center bg-covers-green bg-hero-mobile md:bg-hero-desktop bg-contain md:bg-cover bg-no-repeat bg-right md:bg-bottom right-0 h-[70vh] md:h-[80vh] mb-8 md:mb-16'>
             <div className='w-full'>
                 <div className='flex flex-col max-w-[1440px] m-auto items-center md:items-start text-center md:text-left py-8 px-4 md:px-6'>
                     <h2 className='uppercase font-semibold text-[28px] md:text-4xl'>Free coffee <br/> is a tap away</h2>

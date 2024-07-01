@@ -25,6 +25,10 @@ html {
     @apply font-sodo
 }
 
+p {
+    @apply text-sm md:text-base
+}
+
 button {
     @apply rounded-full border py-1 px-3
 }
