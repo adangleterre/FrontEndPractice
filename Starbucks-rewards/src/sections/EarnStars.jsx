@@ -8,7 +8,7 @@ function EarnStars() {
                 <p className='md:max-w-[60%] lg:max-w-[40%] m-auto text-center'>No matter how you pay, you can earn
                     Stars with your morning coffee. Those Stars add up to (really delicious) Rewards</p>
                 <div className='flex flex-wrap pt-16'>
-                    <div className='w-full lg:w-2/12'>
+                    <div className='w-full lg:w-2/12 pb-8'>
                         <p className='font-semibold text-[19px]'>1★ per dollar</p>
                         <p>Pay as you go</p>
                     </div>
@@ -24,9 +24,9 @@ function EarnStars() {
                         be able to order ahead or scan and pay at the register in one step.'
                     />
                 </div>
-                <hr className='divide-y mt-4 mb-10 md:mt-6 md:mb-12'/>
+                <hr className='mt-4 mb-10 md:mt-6 md:mb-12'/>
                 <div className='flex flex-wrap'>
-                    <div className='w-full lg:w-2/12'>
+                    <div className='w-full lg:w-2/12 pb-8'>
                         <p className='font-semibold text-[19px]'>2★ per dollar</p>
                         <p>Add funds in the app</p>
                     </div>
