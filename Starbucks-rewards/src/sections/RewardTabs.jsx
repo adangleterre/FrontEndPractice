@@ -55,15 +55,15 @@ function RewardTabs() {
 
     return (
         <section className='bg-[#F1F8F4]'>
-            <h2 className='text-center pt-12 pb-4 text-xl md:text-2xl font-semibold'>Get your favorites for free</h2>
-            <div className="relative">
-                <div className="flex shadow-md">
+            <h2 className='text-center pt-12 pb-4 md:pb-12 text-xl md:text-[28px] font-semibold'>Get your favorites for free</h2>
+            <div className="relative shadow-md">
+                <div className="flex md:max-w-[540px] m-auto">
                     {tabsData.map((tab, idx) => {
                         return (
                             <button
                                 key={idx}
                                 ref={(el) => (tabsRef.current[idx] = el)}
-                                className="border-none font-semibold text-[19px] w-1/5 p-2 pb-4"
+                                className="border-none font-semibold text-[19px] md:text-2xl w-1/5 p-2 pb-4"
                                 onClick={() => setActiveTabIndex(idx)}
                             >
                                 {tab.label}
@@ -77,9 +77,9 @@ function RewardTabs() {
                     style={{left: tabUnderlineLeft, width: tabUnderlineWidth}}
                 />
             </div>
-            <div className="flex flex-col md:flex-row text-center md:text-left items-center bg-[#d4e9e2]">
-                <img src={tabsData[activeTabIndex].image} alt="test" className='py-8 md:py-0 max-w-[375px]'/>
-                <div className='pb-12 md:pb-0 px-4'>
+            <div className="flex flex-col md:flex-row text-center md:text-left items-center justify-center md:py-8 bg-[#d4e9e2]">
+                <img src={tabsData[activeTabIndex].image} alt="test" className='py-8 md:py-0 md:pr-6 max-w-[375px]'/>
+                <div className='pb-12 md:pb-0 px-4 max-w-[375px]'>
                     <p className='pb-4 font-semibold text-[19px] md:text-2xl'>{tabsData[activeTabIndex].title}</p>
                     <p>{tabsData[activeTabIndex].description}</p>
                 </div>
