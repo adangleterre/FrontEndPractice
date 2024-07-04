@@ -3,26 +3,31 @@ import {useEffect, useRef, useState} from "react";
 const tabsData = [
     {
         label: '25',
+        image: '/images/reward-25.webp',
         title: 'Customize your drink',
         description: 'Make your drink just right with an extra espresso shot, nondairy milk or a dash of your favorite syrup.',
     },
     {
         label: '100',
+        image: '/images/reward-100.webp',
         title: 'Brewed hot or iced coffee or tea, bakery item, packaged snack and more',
         description: 'Treat yourself to an iced coffee, buttery croissant, bag of chips and more.',
     },
     {
         label: '200',
+        image: '/images/reward-200.webp',
         title: 'Handcrafted drink (Cold Brew, lattes and more) or hot breakfast',
         description: 'Turn good mornings great with a delicious handcrafted drink of your choice, breakfast sandwich or oatmeal on us.',
     },
     {
         label: '300',
+        image: '/images/reward-300.webp',
         title: 'Sandwich, protein box or at-home coffee',
         description: 'Enjoy a PM pick-me-up with a lunch sandwich, protein box or a bag of coffee—including Starbucks VIA Instant®.',
     },
     {
         label: '400',
+        image: '/images/reward-400.webp',
         title: 'Select Starbucks® merchandise',
         description: 'Take home a signature cup, drink tumbler or your choice of coffee merch up to $20.',
     },
@@ -50,7 +55,7 @@ function RewardTabs() {
 
     return (
         <section className='bg-[#F1F8F4]'>
-            <h2 className='text-center pt-12 pb-4 text-2xl font-semibold'>Get your favorites for free</h2>
+            <h2 className='text-center pt-12 pb-4 text-xl md:text-2xl font-semibold'>Get your favorites for free</h2>
             <div className="relative">
                 <div className="flex shadow-md">
                     {tabsData.map((tab, idx) => {
@@ -58,10 +63,11 @@ function RewardTabs() {
                             <button
                                 key={idx}
                                 ref={(el) => (tabsRef.current[idx] = el)}
-                                className="border-none font-semibold text-[19px] w-1/5"
+                                className="border-none font-semibold text-[19px] w-1/5 p-2 pb-4"
                                 onClick={() => setActiveTabIndex(idx)}
                             >
                                 {tab.label}
+                                <span className='text-[#cba258] text-sm'>★</span>
                             </button>
                         );
                     })}
@@ -71,9 +77,12 @@ function RewardTabs() {
                     style={{left: tabUnderlineLeft, width: tabUnderlineWidth}}
                 />
             </div>
-            <div className="py-4 bg-[#d4e9e2]">
-                <p>{tabsData[activeTabIndex].title}</p>
-                <p>{tabsData[activeTabIndex].description}</p>
+            <div className="flex flex-col md:flex-row text-center md:text-left items-center bg-[#d4e9e2]">
+                <img src={tabsData[activeTabIndex].image} alt="test" className='py-8 md:py-0 max-w-[375px]'/>
+                <div className='pb-12 md:pb-0 px-4'>
+                    <p className='pb-4 font-semibold text-[19px] md:text-2xl'>{tabsData[activeTabIndex].title}</p>
+                    <p>{tabsData[activeTabIndex].description}</p>
+                </div>
             </div>
         </section>
     );
