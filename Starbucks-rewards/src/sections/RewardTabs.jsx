@@ -54,7 +54,7 @@ function RewardTabs() {
     }, [activeTabIndex]);
 
     return (
-        <section className='bg-[#F1F8F4]'>
+        <section className='bg-[#F1F8F4] my-12'>
             <h2 className='text-center pt-12 pb-4 md:pb-12 text-xl md:text-[28px] font-semibold'>Get your favorites for free</h2>
             <div className="relative shadow-md">
                 <div className="flex md:max-w-[540px] m-auto">
