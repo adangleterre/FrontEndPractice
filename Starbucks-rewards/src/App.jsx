@@ -5,6 +5,7 @@ import EarnStars from "./sections/EarnStars.jsx";
 import RewardTabs from "./sections/RewardTabs.jsx";
 import Partners from "./sections/Partners.jsx";
 import AskQuestion from "./sections/AskQuestion.jsx";
+import Terms from "./sections/Terms.jsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <EarnStars/>
             <Partners />
             <AskQuestion />
+            <Terms />
         </>
     )
 }
