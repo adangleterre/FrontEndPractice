@@ -29,10 +29,6 @@ p, a {
     @apply text-sm md:text-base
 }
 
-a {
-    @apply text-[#006241] underline
-}
-
 button {
     @apply rounded-full border py-1 px-3
 }
