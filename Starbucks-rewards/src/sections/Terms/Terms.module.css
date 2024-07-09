@@ -1,0 +1,7 @@
+#fontSizes p, h3 {
+    @apply text-[13px] md:text-sm
+}
+
+#fontSizes h3 {
+    @apply font-bold tracking-widest text-[#00000094] text-[13px] md:text-sm
+}
