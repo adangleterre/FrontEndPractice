@@ -1,6 +1,6 @@
-import RewardItem from "../components/RewardItem.jsx";
+import PartnerItem from "../components/RewardItem.jsx";
 
-const rewardItems = [
+const partnerItemData = [
     {
         imageSrc: "/images/delta-skymiles.webp",
         linkText: "Link your Delta SkyMiles",
@@ -31,8 +31,8 @@ function Partners() {
                     our
                     partners, all while earning more Stars.</p>
                 <div className="flex flex-col md:flex-row gap-10 py-14 px-0.5 lg:max-w-[1440px] m-auto">
-                    {rewardItems.map((item, index) => (
-                        <RewardItem key={index} {...item} />
+                    {partnerItemData.map((item, index) => (
+                        <PartnerItem key={index} {...item} />
                     ))}
                 </div>
                 <button className="bg-starbucks-green text-white mb-2">Join Starbucks® Rewards</button>
