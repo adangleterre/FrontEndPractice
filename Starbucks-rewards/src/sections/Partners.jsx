@@ -9,7 +9,7 @@ const rewardItems = [
     },
     {
         imageSrc: "/images/bank-of-america.webp",
-        linkText: "Link your Bank of America card",
+        linkText: "Link your Bank of America",
         href: "#",
         description: "eligible card and Starbucks® Rewards account to earn 2% Cash Back and Bonus Stars on qualifying Starbucks in-app purchases."
     },
@@ -30,7 +30,7 @@ function Partners() {
                     and unlock perks from
                     our
                     partners, all while earning more Stars.</p>
-                <div className="flex flex-col md:flex-row gap-10 py-8 px-0.5 lg:max-w-[1440px] m-auto">
+                <div className="flex flex-col md:flex-row gap-10 py-14 px-0.5 lg:max-w-[1440px] m-auto">
                     {rewardItems.map((item, index) => (
                         <RewardItem key={index} {...item} />
                     ))}
