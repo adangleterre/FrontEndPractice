@@ -4,7 +4,7 @@ function AskQuestion() {
     return (
         <section className="py-16 md:py-24 px-4 md:px-6 lg:px-10">
             <div className="w-full">
-                <div className="ml-[16%] w-6/12">
+                <div className="md:ml-[16%] md:w-6/12">
                     <h2 className="pb-4 text-2xl font-semibold">Questions?</h2>
                     <p className="tracking-tight">We want to help in any way we can. You can ask your barista anytime or we’ve answered the most
                         commonly
