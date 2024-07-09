@@ -4,7 +4,7 @@ function EarnStars() {
     return (
         <section className='bg-[#f2f0eb] py-12 px-4'>
             <div className='max-w-[1440px] m-auto'>
-                <h2 className='text-2xl font-semibold pb-4 text-center pt-6'>Cash or card, you earn stars</h2>
+                <h2 className='text-2xl md:text-[28px] font-semibold pb-4 text-center pt-6'>Cash or card, you earn stars</h2>
                 <p className='md:max-w-[60%] lg:max-w-[40%] m-auto text-center'>No matter how you pay, you can earn
                     Stars with your morning coffee. Those Stars add up to (really delicious) Rewards</p>
                 <div className='flex flex-wrap pt-16'>

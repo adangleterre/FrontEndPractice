@@ -16,6 +16,7 @@ export default {
       backgroundImage: {
         'hero-mobile': "url('/images/hero-mobile.jpg')",
         'hero-desktop': "url('/images/hero-desktop.png')",
+        'partners': "url('/images/bg-partners.webp')"
       }
     },
   },
