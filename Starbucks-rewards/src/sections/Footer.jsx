@@ -1,10 +1,10 @@
-import FooterAccordion from "../components/FooterAccordion.jsx";
+import FooterAccordions from "../components/FooterAccordions.jsx";
 
 function Footer() {
     return (
         <footer className="pt-8 pb-[146px] border-t-2">
             <nav className="px-4">
-                <FooterAccordion items={"test"}/>
+                <FooterAccordions items={"test"}/>
                 <hr className="py-5"/>
                 <ul className="inline-flex gap-3">
                     <li><a href="#">
