@@ -9,21 +9,21 @@ function Starting() {
                 <StepItem
                     className='h-12'
                     altDescription="Step number 1"
-                    iconSrc="/images/step-1.webp"
+                    iconSrc="/images/illustrations/step-1.webp"
                     title="Create an account"
                     description="To get started, join now. You can also join in the app to get access to the full range of Starbucks® Rewards benefits."
                 />
                 <StepItem
                     className='h-12'
                     altDescription="Step number 2"
-                    iconSrc="/images/step-2.webp"
+                    iconSrc="/images/illustrations/step-2.webp"
                     title="Order and pay how you’d like"
                     description="Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. Learn how"
                 />
                 <StepItem
                     className='h-12'
                     altDescription="Step number 3"
-                    iconSrc="/images/step-3.webp"
+                    iconSrc="/images/illustrations/step-3.webp"
                     title="Earn Stars, get Rewards"
                     description="As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!"
                 />

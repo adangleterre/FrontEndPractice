@@ -10,7 +10,7 @@ function Extras() {
                 <StepItem
                     className='h-28'
                     altDescription="a burger with "
-                    iconSrc="/images/1-fun-freebies.webp"
+                    iconSrc="/images/illustrations/1-fun-freebies.webp"
                     title="Fun freebies"
                     description="Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills."
                     link="Learn more"
@@ -18,7 +18,7 @@ function Extras() {
                 <StepItem
                     className='h-28'
                     altDescription=""
-                    iconSrc="/images/2-order-and-pay-ahead.webp"
+                    iconSrc="/images/illustrations/2-order-and-pay-ahead.webp"
                     title="Order & pay ahead"
                     description="Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores."
                     link="Learn more"
@@ -26,7 +26,7 @@ function Extras() {
                 <StepItem
                     className='h-28'
                     altDescription=""
-                    iconSrc="/images/3-get-to-free-faster.webp"
+                    iconSrc="/images/illustrations/3-get-to-free-faster.webp"
                     title="Get to free faster"
                     description="Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games."
                     link="Learn more"
@@ -34,6 +34,6 @@ function Extras() {
             </div>
         </section>
     );
-};
+}
 
 export default Extras;

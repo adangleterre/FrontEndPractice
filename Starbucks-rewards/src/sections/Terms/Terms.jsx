@@ -3,7 +3,7 @@ import styles from './Terms.module.css'
 
 function Terms() {
     return (
-        <section className="py-8 px-5 bg-[#f9f9f9]" id={styles.fontSizes}>
+        <section className="py-8 px-5 bg-[#f9f9f9] mb-8" id={styles.fontSizes}>
             <div className="flex flex-col gap-2 pb-4">
                 <p>At participating stores. Restrictions apply.</p>
                 <p>1Excludes taxes and gratuities. At participating stores. Some restrictions apply. Flights purchased

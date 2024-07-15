@@ -14,9 +14,9 @@ export default {
         sodo: ['sodo','sans-serif'],
       },
       backgroundImage: {
-        'hero-mobile': "url('/images/hero-mobile.jpg')",
-        'hero-desktop': "url('/images/hero-desktop.png')",
-        'partners': "url('/images/bg-partners.webp')"
+        'hero-mobile': "url('/images/backgrounds/hero-mobile.jpg')",
+        'hero-desktop': "url('/images/backgrounds/hero-desktop.png')",
+        'partners': "url('/images/backgrounds/bg-partners.webp')"
       }
     },
   },
