@@ -29,5 +29,5 @@ p, a {
 }
 
 button {
-    @apply rounded-full border py-1 px-3
+    @apply rounded-full border py-1 px-3 hover:brightness-110 transition
 }
