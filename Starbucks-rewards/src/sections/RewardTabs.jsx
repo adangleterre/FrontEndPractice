@@ -58,13 +58,13 @@ function RewardTabs() {
             <h2 className='text-center pt-12 pb-4 md:pb-12 text-xl md:text-[28px] font-semibold'>Get your favorites for free</h2>
             <div className="relative shadow-md">
                 <div className="flex md:max-w-[540px] m-auto">
-                    {tabsData.map((tab, idx) => {
+                    {tabsData.map((tab, id) => {
                         return (
                             <button
-                                key={idx}
-                                ref={(el) => (tabsRef.current[idx] = el)}
+                                key={id}
+                                ref={(element) => (tabsRef.current[id] = element)}
                                 className="border-none font-semibold text-[19px] md:text-2xl w-1/5 p-2 pb-4"
-                                onClick={() => setActiveTabIndex(idx)}
+                                onClick={() => setActiveTabIndex(id)}
                             >
                                 {tab.label}
                                 <span className='text-[#cba258] text-sm'>★</span>
