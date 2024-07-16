@@ -61,8 +61,8 @@ const legalLinks = [
 function Footer() {
     return (
         <footer className="pt-8 pb-[146px] border-t-2">
-            <nav className="px-4">
-                <FooterAccordions items={"test"}/>
+            <nav className="py-4 max-w-[1440px] m-auto">
+                <FooterAccordions/>
                 <hr className="py-5"/>
                 <ul className="inline-flex gap-3">
                     {icons.map((icon) => (
