@@ -1,6 +1,6 @@
 import {Accordion, AccordionItem, AccordionContent, AccordionTrigger} from "../../components/ui/accordion.jsx";
 
-const accordionData = [
+const footerTopicsAndPages = [
     {
         title: "About Us",
         links: [
@@ -53,8 +53,8 @@ const accordionData = [
     },
 ];
 
-const AccordionLinks = ({links}) => (
-    <nav className="flex flex-col gap-6">
+const FooterLinks = ({links}) => (
+    <nav className="flex flex-col gap-6 lg:gap-7">
         {links.map((link, index) => (
             <a
                 key={index}
@@ -69,16 +69,27 @@ const AccordionLinks = ({links}) => (
 
 function FooterAccordions() {
     return (
-        <Accordion type="multiple" className="w-full">
-            {accordionData.map((item) => (
-                <AccordionItem key={item.title} value={item.title}>
-                    <AccordionTrigger>{item.title}</AccordionTrigger>
-                    <AccordionContent>
-                        <AccordionLinks links={item.links}/>
-                    </AccordionContent>
-                </AccordionItem>
-            ))}
-        </Accordion>
+        <>
+            <Accordion type="multiple" className="w-full lg:hidden">
+                {footerTopicsAndPages.map((item) => (
+                    <AccordionItem key={item.title} value={item.title}>
+                        <AccordionTrigger>{item.title}</AccordionTrigger>
+                        <AccordionContent>
+                            <FooterLinks links={item.links}/>
+                        </AccordionContent>
+                    </AccordionItem>
+                ))}
+            </Accordion>
+            <div className="hidden lg:flex gap-12 pb-8">
+                {footerTopicsAndPages.map((item) => (
+                    <div key={item.title} className="max-w-52">
+                        <h2 className="text-[19px] mb-8">{item.title}</h2>
+                        <FooterLinks links={item.links} />
+                    </div>
+                ))}
+            </div>
+        </>
+
     );
 }
 
