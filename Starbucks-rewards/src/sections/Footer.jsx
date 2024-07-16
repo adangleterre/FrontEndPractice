@@ -1,5 +1,63 @@
 import FooterAccordions from "../components/FooterAccordions.jsx";
 
+const icons = [
+    {
+        name: "spotify",
+        src: "/images/icons/spotify-icon.svg",
+    },
+    {
+        name: "facebook",
+        src: "/images/icons/facebook-icon.svg",
+    },
+    {
+        name: "pinterest",
+        src: "/images/icons/pinterest-icon.svg",
+    },
+    {
+        name: "instagram",
+        src: "/images/icons/instagram-icon.svg",
+    },
+    {
+        name: "youtube",
+        src: "/images/icons/youtube-icon.svg",
+    },
+    {
+        name: "twitter",
+        src: "/images/icons/twitter-icon.svg",
+    },
+]
+
+const legalLinks = [
+    {
+        name: "Privacy Notice",
+        urlLink: "#",
+    },
+    {
+        name: "Consumer Health Privacy Notice",
+        urlLink: "#",
+    },
+    {
+        name: "Terms of Use",
+        urlLink: "#",
+    },
+    {
+        name: "Do not Share My Personal Information",
+        urlLink: "#",
+    },
+    {
+        name: "CA Supply Chain Act",
+        urlLink: "#",
+    },
+    {
+        name: "Accessibility",
+        urlLink: "#",
+    },
+    {
+        name: "Cookie Preferences",
+        urlLink: "#",
+    }
+]
+
 function Footer() {
     return (
         <footer className="pt-8 pb-[146px] border-t-2">
@@ -7,33 +65,20 @@ function Footer() {
                 <FooterAccordions items={"test"}/>
                 <hr className="py-5"/>
                 <ul className="inline-flex gap-3">
-                    <li><a href="#">
-                        <img src="/images/icons/spotify-icon.svg" alt=""/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="/images/icons/facebook-icon.svg" alt=""/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="/images/icons/pinterest-icon.svg" alt=""/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="/images/icons/instagram-icon.svg" alt=""/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="/images/icons/youtube-icon.svg" alt=""/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="/images/icons/twitter-icon.svg" alt=""/>
-                    </a></li>
+                    {icons.map((icon) => (
+                        <li key={icon}>
+                            <a href="#">
+                                <img src={icon.src} alt={icon.name + " icon link"}/>
+                            </a>
+                        </li>
+                    ))}
                 </ul>
                 <ul className="flex flex-col gap-4 mt-8 mb-4">
-                    <li><a href="#">Privacy Notice</a></li>
-                    <li><a href="#">Consumer Health Privacy Notice</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Do not Share My Personal Information</a></li>
-                    <li><a href="#">CA Supply Chain Act</a></li>
-                    <li><a href="#">Accessibility</a></li>
-                    <li><a href="#">Cookie Preferences</a></li>
+                    {legalLinks.map((link) => (
+                        <li key={link.name}>
+                            <a href={link.urlLink}>{link.name}</a>
+                        </li>
+                    ))}
                 </ul>
                 <p className="py-3 text-[#00000094]">© 2024 Starbucks Coffee Company. All rights reserved.</p>
             </nav>
