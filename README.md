@@ -21,14 +21,20 @@ I made everything with :
 
 ![Ableton page screenshot](https://github.com/adangleterre/FrontEndPractice/assets/45876792/557f2334-43cc-494a-8f31-96bc25a72348)
 
-#### Abstract help page
+#### Abstract help
 
 [My work](https://github.com/adangleterre/FrontEndPractice/tree/main/Abstract) | [Frontend practice page](https://www.frontendpractice.com/projects/abstract) 
 
 ![Abstract page screenshot](https://github.com/adangleterre/FrontEndPractice/assets/45876792/483d0d58-6a8f-4087-861a-b4a6c39bf787)
 
-#### Lobe tour page
+#### Lobe tour
 
 [My work](https://github.com/adangleterre/FrontEndPractice/tree/main/Lobe-tour) | [Frontend practice page](https://www.frontendpractice.com/projects/lobe) 
 
 ![Lobe page screenshot](https://github.com/adangleterre/FrontEndPractice/assets/45876792/4a9d5e84-932b-4d5c-8190-7dd82d7e0e37)
+
+#### Starbucks rewards
+
+[My work](https://github.com/adangleterre/FrontEndPractice/tree/main/Starbucks-rewards) | [Frontend practice page](https://www.frontendpractice.com/projects/starbucks) 
+
+![Starbucks rewards page screenshot](https://github.com/user-attachments/assets/8e0b39cc-37e4-4db1-b7db-273d80da8c49)
